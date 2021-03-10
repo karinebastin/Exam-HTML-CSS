@@ -1,0 +1,119 @@
+/* Globale */
+
+Body {
+height: 100vh;
+font-style: arialMT;
+}
+
+Body,.section2 {
+  background: url(../img/background.jpg) 100%/cover repeat;
+  }
+
+nav{
+  list-style: none;
+}
+
+nav a{
+  color:black;
+  text-decoration: none;
+  font-size: small;
+}
+
+span{
+  color:rgb(210, 147, 16)
+}
+
+
+/* header */
+
+header p,.navigation{
+  font-weight: 500;
+}
+
+/* main */
+main{
+  background-color: rgb(28, 28, 28);
+}
+
+.section1{
+  background: url(../img/header-page-catalogue.png) center/cover no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+.article1 .image_article,.article2 .image_article{
+  background: url("../img/gant-boxe-2.png") center/100% no-repeat;
+  height: 200px;
+}
+.article3 .image_article,.article4 .image_article{
+  background: url("../img/gant-boxe-1.png") center/100% no-repeat;
+  height: 200px;
+}
+.lien_vente{
+  background-color: black;
+  color: white;
+  padding: 2px 10px;
+}
+.position-absolute{
+  bottom: 0px;
+  text-align: center;
+}
+strong{
+  text-decoration: line-through;
+}
+
+.vente{
+  width: 100%;
+}
+
+.vente a,.vente strong,.vente span{
+  margin: 5%;
+}
+
+.reduction{
+  right: 0;
+  top: 2px;
+}
+
+.reduction p{
+  color:rgb(210, 147, 16);
+  padding: 2px;
+  border-radius: 5px;
+  background: black;
+}
+
+.navigation2{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.section3{
+  background-color: rgb(55, 55, 55);
+  color: white;
+  font-size: xx-small;
+}
+.section3 img{
+  width: 40px;
+  height: auto;
+}
+
+
+/* footer */
+
+footer{
+  background-color: rgb(55, 55, 55);
+  color: white;
+  font-size: xx-small;
+}
+
+hr{
+  background-color: rgb(129, 129, 129);
+  height: 5px;
+}
+
+
+
+/* media
+@media(min-width:48em){
+
+} */
